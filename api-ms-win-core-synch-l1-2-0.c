@@ -140,7 +140,9 @@ void WINAPI WakeByAddressSingle(
 #pragma comment(linker, "/export:WakeByAddressSingle")
 
 #pragma comment(linker, "/export:CancelWaitableTimer=kernel32.CancelWaitableTimer")
+#pragma comment(linker, "/export:CreateEventA=kernel32.CreateEventA")
 #pragma comment(linker, "/export:CreateEventW=kernel32.CreateEventW")
+#pragma comment(linker, "/export:DeleteCriticalSection=kernel32.DeleteCriticalSection")
 #pragma comment(linker, "/export:EnterCriticalSection=kernel32.EnterCriticalSection")
 #pragma comment(linker, "/export:InitializeConditionVariable=kernel32.InitializeConditionVariable")
 #pragma comment(linker, "/export:InitializeCriticalSection=kernel32.InitializeCriticalSection")
