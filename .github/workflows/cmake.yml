@@ -38,4 +38,4 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         name: api-ms-win-core-synch-Win7
-        path: /
+        path: api-ms-win-core-synch-Win7/api-ms-win-core-synch-Win7/build/Release/
