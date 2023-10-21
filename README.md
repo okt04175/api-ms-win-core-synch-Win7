@@ -1,5 +1,5 @@
 # About
-(Add some missing functions _ can it use with MKVToolNix - Fixed version)
+(Add some missing functions _ it can use with MKVToolNix - Fixed version)(Also, it can fix QT 6.2.4 Win7 compatibility issues.)
 This project allows Qt Creator MinGW [releases](https://github.com/qt-creator/qt-creator/releases)
 to run on Windows 7.
 
