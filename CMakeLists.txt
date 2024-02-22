@@ -4,8 +4,8 @@ set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
 
 project(windows7)
 
-add_library(api-ms-win-core-synch-l1-2-0 SHARED api-ms-win-core-synch-l1-2-0.c)
-install(TARGETS api-ms-win-core-synch-l1-2-0)
+add_library(api-ms-win-core-synch-l1-2-0${bit} SHARED api-ms-win-core-synch-l1-2-0.c)
+install(TARGETS api-ms-win-core-synch-l1-2-0${bit})
 
-add_library(dxgi SHARED dxgi.c)
-install(TARGETS dxgi)
+add_library(dxgi${bit} SHARED dxgi.c)
+install(TARGETS dxgi${bit})
