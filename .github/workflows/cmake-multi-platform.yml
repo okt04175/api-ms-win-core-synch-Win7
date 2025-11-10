@@ -67,7 +67,7 @@ jobs:
 
 
     - name: Upload a Build Artifact
-      uses: actions/upload-artifact@v4.5.0
+      uses: actions/upload-artifact@v4.6.2
       with:
        # Artifact name
        name: api-ms-win-core-path-HACK-${{ matrix.build_type }}-${{ matrix.A }}-${{ matrix.c_compiler }} # optional, default is artifact
