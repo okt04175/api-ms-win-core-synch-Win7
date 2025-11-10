@@ -1,5 +1,4 @@
 #include <Windows.h>
-#include <DXGI.h>
 
 
 HRESULT CreateDXGIFactory2(
